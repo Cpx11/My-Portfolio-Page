@@ -1591,6 +1591,16 @@ window.addEventListener('scroll',()=>{
   const y=window.scrollY*0.04;
   document.querySelectorAll('.orb').forEach((o,i)=>o.style.transform=`translateY(${i%2===0?y:-y}px)`);
 });
+
+/* Connect to Firebase */
+const firebaseConfig = {
+    apiKey: "AIzaSyDVgWJfpcfUBH6Pab5axc7V3SDJVKDC7kw",
+    authDomain: "my-portfolio-b3673.firebaseapp.com",
+    projectId: "my-portfolio-b3673",
+    storageBucket: "my-portfolio-b3673.firebasestorage.app",
+    messagingSenderId: "263483217657",
+    appId: "1:263483217657:web:d067647812ebcd2d187428"
+  };
 </script>
 </body>
 </html>
